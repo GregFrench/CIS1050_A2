@@ -42,9 +42,10 @@
       }
 
       header {
-        border-bottom: 1px solid #2EB086;
+        border-bottom: 1px solid #B8405E;
         padding: 20px;
-        margin-bottom: 20px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
       }
 
       .img-center {
@@ -54,7 +55,7 @@
 
       .logo {
         color: #B8405E;
-        font-size: 56px;
+        font-size: 62px;
         font-family: 'Brush Script MT', cursive;
         text-align: center;
       }
@@ -63,6 +64,26 @@
         height: auto;
         max-width: 770px;
         width: 100%;
+      }
+
+      nav {
+        margin-top: 30px;
+        width: 100%;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      nav ul li {
+        display: inline;
+      }
+
+      nav ul li a {
+        padding: 12px;
       }
 
       .product-image {
@@ -85,6 +106,16 @@
     <div class="container">
       <header>
         <div class="logo"><strong>Japanese Snacks</strong></div>
+
+        <nav>
+          <ul>
+            <li>
+              <a href="#popular">Why are Japanese snacks so popular?</a>
+            </li>
+            <li>
+              <a href="#purchase">Where can I buy Japanese snacks?</a>
+          </ul>
+        </nav>
       </header>
       <figure>
         <img src="./japanese-snacks.jpg" alt="Japanese Snacks" class="main-image img-center" />
@@ -96,7 +127,7 @@
         world flock to Japan to experience the tastes that you simply can&rsquo;t get anywhere else.
       </p>
 
-      <h1>Why are Japanese snacks so popular?</h1>
+      <h1 id="popular">Why are Japanese snacks so popular?</h1>
 
       <p>
         The reason these snacks have become so popular throughout the world is through word-of-mouth. People have either known people
@@ -126,7 +157,7 @@
         hands on these delicious snacks.
       </p>
 
-      <h1>Where can I buy these?</h1>
+      <h1 id="purchase">Where can I buy Japanese snacks?</h1>
 
       <p>
         Here&rsquo;s the good news. You don&rsquo;t have to travel to Japan to get your hands on these savoury treats.
